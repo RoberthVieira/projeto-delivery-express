@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    background-color: rgb(65, 188, 230);
+    padding: 2px;
+    text-align: center;
+    width: 100%;
+}
+
+.topo a{
+    color: #fff;
+    margin: 0 10px;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
