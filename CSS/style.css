@@ -5,16 +5,78 @@ body{
 
 .topo{
     background-color: rgb(65, 188, 230);
-    padding: 2px;
     text-align: center;
+    height: 48px;
+}
+
+.ajuste-largura{
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.conteudo{
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.conteudo h2, .conteudo h3, .conteudo p{
+    padding: 0 12px;
+}
+
+.conteudo h2{
+    margin: 15px 0;
+}
+
+.conteudo h3{
+    margin: 12px 0;
+}
+
+.conteudo p{
+    line-height: 25px;
+}
+
+img{
     width: 100%;
 }
 
-.topo a{
-    color: #fff;
-    margin: 0 10px;
-    font-size: 16px;
-    text-decoration: none;
-    border-bottom: 1px solid #fff;
+#sobre-nos img{
+    margin: 20px 10px;
+    width: calc(100% - 20px);
 }
 
+ul{
+    list-style: none;
+}
+
+.links li{
+    display: inline;
+    padding: 0 12px;
+}
+
+.links li a{
+    font-size: 18px;
+    color: white;
+}
+
+.links{
+    padding: 14px 0;
+}
+
+#contato ul{
+    padding: 0;
+}
+
+#contato ul, #contato ul li{
+    display: inline;
+}
+
+#contato ul li a{
+    background-color: #23b4eb;
+    color: #fff;
+    padding: 10px;
+}
+
+#contato p {
+    height: 40px;
+}
